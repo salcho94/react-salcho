@@ -13,13 +13,28 @@ This is the font import from the google api
 Global Styles 
 *******************/
 
+
+@font-face {
+    font-family: 'Ansungtangmyun-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ansungtangmyun-ESG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-ESG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     outline: none;
 }
 
 body {
     background: $bodycolor;
-    font-family: $bodyfont;
+    font-family: Ansungtangmyun-Bold;
     margin: 0;
     overflow-x: hidden;
     color: $bodytext;
