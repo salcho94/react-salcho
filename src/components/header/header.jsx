@@ -36,7 +36,7 @@ const Header = () => {
                     <div className="header1 po-relative bg-dark">
                         <Container>
                             <Navbar className="navbar-expand-lg h2-nav">
-                                <NavbarBrand href="#"><button className="btn btn-outline-primary font-10 rounded-circle p-1" onClick={() => setIsCssView(!isCssView)}>css</button><img style={logoStyle}  src={logo} alt="wrapkit" /></NavbarBrand>
+                                <NavbarBrand href="#"><img style={logoStyle}  src={logo} alt="wrapkit" /></NavbarBrand>
                                 <NavbarToggler onClick={toggle}><span className="ti-menu text-white"></span></NavbarToggler>
                                 <Collapse isOpen={isOpen} navbar id="header1">
                                     <Nav navbar className="ml-auto mt-2 mt-lg-0">
@@ -59,8 +59,7 @@ const Header = () => {
                                                 Home
                                             </Link>
                                         </NavItem>
-                                        <NavItem><NavLink href="#">About Me</NavLink></NavItem>
-                                        <NavItem> <Link to="#login" className="btn btn-light font-10">로그인</Link></NavItem>
+                                        <NavItem> <Link to="#login" className="btn btn-light font-10" onClick={() =>{alert('준비중 입니다.')}}>로그인</Link>     <button className="btn btn-secondary font-10 rounded-circle p-1" onClick={() => setIsCssView(!isCssView)}>css</button></NavItem>
                                     </Nav>
                                 </Collapse>
                             </Navbar>
