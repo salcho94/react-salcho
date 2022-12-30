@@ -1,10 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-// core components
-import Header from "../../components/header/header.jsx";
-import HeaderBanner2 from "../../components/banner2/banner2.jsx";
-import Footer from "../../components/footer/footer.jsx";
+import HeaderBanner from "../../components/banner/banner.jsx";
 
 // sections for this page
 import HeaderComponent from "./sections/headercomponent.jsx";
@@ -22,11 +18,9 @@ import ContactComponent from "./sections/contactcomponent.jsx";
 
 const CustomComponents = () => {
     return (
-        <div id="main-wrapper">
-            <Header />
             <div className="page-wrapper">
                 <div className="container-fluid">
-                    <HeaderBanner2 />
+                    <HeaderBanner />
                     <HeaderComponent />
                     <BannerComponent />
                     <FormBannerComponent />
@@ -40,8 +34,6 @@ const CustomComponents = () => {
                     <ContactComponent />
                 </div>
             </div>
-            <Footer />
-        </div>
     );
 }
 

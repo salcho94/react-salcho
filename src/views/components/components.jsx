@@ -4,9 +4,8 @@ import PropTypes from "prop-types";
 
 
 // core components
-import Header from "../../components/header/header.jsx";
 import HeaderBanner from "../../components/banner/banner.jsx";
-import Footer from "../../components/footer/footer.jsx";
+
 
 // sections for this page
 import Buttons from "./sections/buttons.jsx";
@@ -27,8 +26,6 @@ import JsComponents from "./sections/js-components.jsx";
 
 const Components = () => {
     return (
-        <div id="main-wrapper">
-            <Header />
             <div className="page-wrapper">
                 <div className="container-fluid">
                     <HeaderBanner />
@@ -47,8 +44,6 @@ const Components = () => {
                     <JsComponents />
                 </div>
             </div>
-            <Footer />
-        </div>
     );
 }
 

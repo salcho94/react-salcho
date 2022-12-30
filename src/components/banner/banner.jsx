@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import { Container, Row, Col } from 'reactstrap';
 
 const HeaderBanner = () => {
@@ -12,7 +11,7 @@ const HeaderBanner = () => {
                             <span className="label label-rounded label-inverse">welcome</span>
                             <h1 className="title">SALCHO</h1>
                             <h6 className="subtitle op-8">FE : Html / Bootstrap / JavaScript / React<br /> BE : Node.js / express.js / mySql</h6>
-                            <a className="btn btn-outline-light btn-rounded btn-md btn-arrow m-t-20" data-toggle="collapse" href=""><span>Chat? <i className="ti-arrow-right"></i></span></a>
+                            <a className="btn btn-outline-light btn-rounded btn-md btn-arrow m-t-20" data-toggle="collapse" href="/#/chat"><span>Chat? <i className="ti-arrow-right"></i></span></a>
                         </Col>
                     </Row>
                 </Container>
