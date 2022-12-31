@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react';
+import React  from 'react';
+import { init } from 'emailjs-com';
 import Iframe from 'react-iframe'
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
-
 
 
 const Chat = () => {
@@ -22,7 +22,7 @@ const Chat = () => {
             <div>
                 <Container>
                     <Row className="m-t-40 p-3 rounded" style={{border: '3px solid'}}>
-                        <Iframe url="https://salcho.cf:7777"
+                        <Iframe url={process.env.REACT_APP_LOCAL_CHAT}
                                 width="100%"
                                 height="580px"
                                 display="block"

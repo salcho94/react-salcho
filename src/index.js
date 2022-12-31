@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
+import HttpsRedirect from 'react-https-redirect';
 import {
     Route,
     Switch,
@@ -22,6 +23,7 @@ var hist = createBrowserHistory();
 ReactDOM.render(
     <HashRouter history={hist}>
         <div id="main-wrapper">
+            <HttpsRedirect>
             <Header />
                 <Switch>
                     <Route path="/custom-components" component={CustomComponents} />
@@ -30,6 +32,7 @@ ReactDOM.render(
                     <Route path="/" component={Main} />
                 </Switch>
             <Footer />
+            </HttpsRedirect>
         </div>
     </HashRouter>,
     document.getElementById("root")
