@@ -8,8 +8,8 @@
     },
     "dependencies": {
         "@babel/runtime": "^7.6.3",
+        "axios": "^1.2.2",
         "classnames": "2.2.6",
-        "emailjs-com": "^3.2.0",
         "history": "4.9.0",
         "moment": "2.24.0",
         "node-sass": "^4.13.1",
