@@ -59,6 +59,11 @@ const Header = () => {
                                                 Home
                                             </Link>
                                         </NavItem>
+                                        <NavItem>
+                                            <Link className="nav-link" to={"/Board"}>
+                                                Board
+                                            </Link>
+                                        </NavItem>
                                         <NavItem> <Link to="#login" className="btn btn-light font-10" onClick={() =>{alert('준비중 입니다.')}}>로그인</Link>     <button className="btn btn-secondary font-10 rounded-circle p-1" onClick={() => setIsCssView(!isCssView)}>css</button></NavItem>
                                     </Nav>
                                 </Collapse>

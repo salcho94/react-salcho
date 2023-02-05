@@ -14,6 +14,7 @@ import './assets/scss/style.scss';
 import Main from "./views/main.jsx";
 import Components from "./views/components/components.jsx";
 import Chat from "./views/pages/chat.jsx";
+import Board from "./views/pages/board.jsx";
 import CustomComponents from "./views/custom-components/custom-components.jsx";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
@@ -29,6 +30,7 @@ ReactDOM.render(
                     <Route path="/custom-components" component={CustomComponents} />
                     <Route path="/components" component={Components} />
                     <Route path="/chat" component={Chat} />
+                    <Route path="/board" component={Board} />
                     <Route path="/" component={Main} />
                 </Switch>
             <Footer />
