@@ -1,7 +1,7 @@
 {
     "name": "wrapkit-ui",
     "version": "0.1.0",
-    "homepage": "https://salcho.cf/",
+    "homepage": "https://salcho.kro.kr/",
     "private": true,
     "devDependencies": {
         "node": "^8.15.0"

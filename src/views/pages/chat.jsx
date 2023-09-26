@@ -21,7 +21,7 @@ const Chat = () => {
             <div>
                 <Container>
                     <Row className="m-t-40 p-3 rounded" style={{border: '3px solid'}}>
-                        <Iframe url={process.env.REACT_APP_CHAT}
+                        <Iframe url={process.env.REACT_APP_CHAT_SERVER}
                                 width="100%"
                                 height="580px"
                                 display="block"
