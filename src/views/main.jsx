@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // core components
 
 import HeaderBanner from "../components/banner/banner";
-import PortfolioComponent from "./custom-components/sections/portfoliocomponent";
+
 
 
 
@@ -16,7 +16,7 @@ const Main = () => {
                 <div className="container-fluid">
                     <div>
                         <HeaderBanner />
-                        <PortfolioComponent />
+
                     </div>
                 </div>
             </div>
