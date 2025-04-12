@@ -1,0 +1,91 @@
+[
+  {
+    "title": "공정 경쟁 지원 시스템",
+    "period": "2020년 11월 - 2021년 03월",
+    "role": "신규 구축 진행",
+    "techs": [
+      "Java", "Jquery", "Javascript", "Springframework", "Mybatis",
+      "Jsp", "Mysql", "Html", "Css", "Jstl"
+    ]
+  },
+  {
+    "title": "콘텐츠분쟁조정위원회",
+    "period": "2021년 03월 - 2021년 12월",
+    "role": "기능개선 및 유지보수",
+    "techs": [
+      "Java", "Jquery", "Javascript", "Tibero", "Springframework", "Mybatis",
+      "Jsp", "Mysql", "Html", "Css", "Jstl"
+    ]
+  },
+  {
+    "title": "국립국어원 한국어 교원",
+    "period": "2021년 06월 - 2021년 12월",
+    "role": "고도화 및 리뉴얼 진행",
+    "techs": [
+      "Java", "Jquery", "Javascript", "Cubrid", "Springframework", "Mybatis",
+      "Jsp", "Mysql", "Html", "Css", "Jstl", "Bootstrap"
+    ]
+  },
+  {
+    "title": "한솔 신기한 나라 Live",
+    "period": "2022년 02월 - 2022년 04월",
+    "role": "프론트단 개발 및 수정",
+    "techs": ["Jquery", "Javascript", "Thymeleaf"]
+  },
+  {
+    "title": "한솔 신기한 나라 관리자",
+    "period": "2022년 02월 - 2022년 06월",
+    "role": "부분개발",
+    "techs": [
+      "Java", "Jquery", "Javascript", "Springboot", "Mybatis",
+      "Jsp", "Mysql", "Html", "Css", "Jstl"
+    ]
+  },
+  {
+    "title": "AltiCast (피플카)",
+    "period": "2022년 04월 - 2022년 09월",
+    "role": "VOC 응대 및 부분개발",
+    "techs": ["Typescript", "Swagger", "Axios", "React"]
+  },
+  {
+    "title": "국방부 사이트 프론트 리뉴얼",
+    "period": "2022년 09월 - 2022년 12월",
+    "role": "프론트 리뉴얼 개발 작업진행",
+    "techs": ["Jquery", "Javascript", "Jsp", "Jstl"]
+  },
+  {
+    "title": "휴머스온 TMS 웹 관리자 화면 (현대해상)",
+    "period": "2023년 01월 - 2022년 07월",
+    "role": "휴머스온 TMS 웹 사이트 접목 및 부분개발 진행",
+    "techs": [
+      "Jquery", "Javascript", "Jsp", "Oracle", "Jstl", "Java",
+      "Springframework", "Maven", "Mybatis"
+    ]
+  },
+  {
+    "title": "KT통합 재고관리시스템 TAMS 개발",
+    "period": "2024년 04월 - 2024년 08월",
+    "role": "KT통합 재고관리시스템 TAMS 웹 사이트 접목 및 부분개발 진행",
+    "techs": [
+      "Jquery", "Javascript", "Jsp", "Oracle", "Jstl", "Java",
+      "Springframework", "Maven", "Mybatis"
+    ]
+  },
+  {
+    "title": "힌살림 리뉴얼 고도화",
+    "period": "2024년 08월 - 2025년 01월",
+    "role": "힌살림 리뉴얼 고도화 개발 작업진행",
+    "techs": [
+      "React", "Oracle", "Springbootframework", "Gradle", "Mybatis"
+    ]
+  },
+  {
+    "title": "CJ CGV 차세대시스템(온모바일)",
+    "period": "2025년 03월 - 진행중 (6월 종료예정)",
+    "role": "스토어/액티비티 결함처리 및 신규개발",
+    "techs": [
+      "React", "Next.js", "Typescript", "Oracle", "Java", "Springboot",
+      "Gradle", "Mybatis"
+    ]
+  }
+]

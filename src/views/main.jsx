@@ -16,15 +16,12 @@ const Main = () => {
                 <div className="container-fluid">
                     <div>
                         <HeaderBanner />
-
                     </div>
                 </div>
             </div>
     );
 }
 
-Main.propTypes = {
-    classes: PropTypes.object
-};
+
 
 export default Main;

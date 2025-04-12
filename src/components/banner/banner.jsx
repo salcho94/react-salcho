@@ -10,8 +10,8 @@ const HeaderBanner = () => {
                         <Col md="6" className="align-self-center text-center">
                             <span className="label label-rounded label-inverse">welcome</span>
                             <h1 className="title">SALCHO</h1>
-                            <h6 className="subtitle op-8">안녕하세요 저한테 채팅을 하실수 있습니다.<br /> 아래의 버튼을 눌러주세요</h6>
-                            <a className="btn btn-outline-light btn-rounded btn-md btn-arrow m-t-20" data-toggle="collapse" href="/#/chat"><span>Chat? <i className="ti-arrow-right"></i></span></a>
+                            <h6 className="subtitle op-8">저의 사이트를 방문하실수 있습니다.<br /> 아래의 버튼을 눌러주세요</h6>
+                            <a className="btn btn-outline-light btn-rounded btn-md btn-arrow m-t-20" data-toggle="collapse" href="http://js94.kro.kr:3000/"><span>방문하기 <i className="ti-arrow-right"></i></span></a>
                         </Col>
                     </Row>
                 </Container>

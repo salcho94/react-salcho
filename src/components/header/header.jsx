@@ -40,7 +40,7 @@ const Header = () => {
 
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
                                 <NavItem>
-                                    <Link to={"/portfolio"} className="btn btn-light font-10" >Portfolio</Link>
+                                    <Link to={"/portfolio"} className="btn btn-light font-10" >경력사항</Link>
                                 </NavItem>
                             </Nav>
                                 {/*<Collapse isOpen={isOpen} navbar id="header1">
