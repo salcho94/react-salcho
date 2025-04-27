@@ -16,6 +16,7 @@ import Main from "./views/main.jsx";
 
 import Chat from "./views/pages/chat.jsx";
 import Portfolio from "./views/pages/portPolio.jsx";
+import PhoneNumber from "./views/pages/phoneNumber.jsx";
 
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
@@ -30,6 +31,7 @@ ReactDOM.render(
                 <Switch>
                     <Route path="/chat" component={Chat} />
                     <Route path="/portfolio" component={Portfolio} />
+                    <Route path="/phoneNumber" component={PhoneNumber} />
                     <Route path="/" component={Main} />
                 </Switch>
             <Footer />

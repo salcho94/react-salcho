@@ -18,6 +18,16 @@ Topbar
     z-index: 20;
 }
 
+
+.button-custom {
+    max-width: 300px;
+}
+@media (max-width: 576px) {
+    .button-custom {
+        max-width: 90%;
+    }
+}
+
 /*******************
 Header 6
 *******************/
