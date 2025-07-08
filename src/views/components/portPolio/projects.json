@@ -81,11 +81,10 @@
   },
   {
     "title": "CJ CGV 차세대시스템(온모바일)",
-    "period": "2025년 03월 - 진행중 (6월 종료예정)",
-    "role": "스토어/액티비티 결함처리 및 신규개발",
+    "period": "2025년 03월 - 진행중",
+    "role": "FE 스토어/액티비티 결함처리 및 신규개발",
     "techs": [
-      "React", "Next.js", "Typescript", "Oracle", "Java", "Springboot",
-      "Gradle", "Mybatis"
+      "React", "Next.js", "Typescript"
     ]
   }
 ]
