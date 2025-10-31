@@ -36,42 +36,17 @@ const Header = () => {
                     <div className="header1 po-relative bg-dark">
                         <Container>
                             <Navbar className="navbar-expand-lg h2-nav">
-                                <NavbarBrand href="#"><img style={logoStyle}  src={logo} alt="wrapkit" /></NavbarBrand>
-
-                            <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                                <NavItem>
-                                    <Link to={"/portfolio"} className="btn btn-light font-10" >경력사항</Link>
-                                </NavItem>
-                            </Nav>
-                                {/*<Collapse isOpen={isOpen} navbar id="header1">
+                                <NavbarBrand href="/#"><img style={logoStyle}  src={logo} alt="wrapkit" /></NavbarBrand>
+                                <Collapse isOpen={isOpen} navbar id="header1">
                                     <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                                        {isCssView &&
-                                            <NavItem>
-                                                <Link className="nav-link" to={"/components"}>
-                                                    css example1
-                                                </Link>
-                                            </NavItem>
-                                        }
-                                        { isCssView &&
-                                            <NavItem>
-                                                <Link className="nav-link" to={"/custom-components"}>
-                                                    css example2
-                                                </Link>
-                                            </NavItem>
-                                        }
                                         <NavItem>
-                                            <Link className="nav-link" to={"/"}>
-                                                Home
+                                            <Link className="nav-link" to={"/portfolio"}>
+                                                경력사항
                                             </Link>
                                         </NavItem>
-                                        <NavItem>
-                                            <Link className="nav-link" to={"/Board"}>
-                                                Board
-                                            </Link>
-                                        </NavItem>
-                                        <NavItem> <Link to="#login" className="btn btn-light font-10" onClick={() =>{alert('준비중 입니다.')}}>로그인</Link>     <button className="btn btn-secondary font-10 rounded-circle p-1" onClick={() => setIsCssView(!isCssView)}>css</button></NavItem>
+                                        <NavItem> <Link to={"/contact"} className="btn btn-light font-10" >문의하기</Link></NavItem>
                                     </Nav>
-                                </Collapse>*/}
+                                </Collapse>
                             </Navbar>
                         </Container>
                     </div>
