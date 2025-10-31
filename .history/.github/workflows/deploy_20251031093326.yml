@@ -1,0 +1,47 @@
+name: Auto Push dist to deploy branch
+
+on:
+  push:
+    branches:
+      - main  # main에 push 될 때마다 자동 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Push dist folder to deploy branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 임시 폴더로 dist 복사
+          rm -rf /tmp/deploy
+          mkdir /tmp/deploy
+          cp -r dist/* /tmp/deploy
+
+          # deploy 브랜치 체크아웃
+          git fetch origin deploy || true
+          git checkout -B deploy
+
+          # dist 내용 복사 후 커밋
+          rm -rf *
+          cp -r /tmp/deploy/* .
+          git add .
+          git commit -m "Auto deploy from main at $(date)" || echo "No changes to commit"
+
+          git push origin deploy --force
