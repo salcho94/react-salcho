@@ -10,13 +10,10 @@ const Footer = () => {
           <Row>
             <Col md="12">
               <div className="d-flex font-14 text-center">
-                <div
-                  className="m-t-10 m-b-10 copyright"
-                  style={{ color: "black" }}
-                >
+                <div className="m-t-10 m-b-10 copyright">
                   All Rights Salcho Since 1994.
                 </div>
-                <div className="links ml-auto m-t-10 m-b-10">
+                <div className="links ml-auto m-t-10 m-b-10 text-black">
                   <a
                     href="https://github.com/salcho94"
                     target="_blank"

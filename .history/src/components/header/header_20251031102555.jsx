@@ -53,7 +53,7 @@ const Header = () => {
                       {" "}
                       <Link
                         to={"/contact"}
-                        className="btn btn-light font-10 mt-1"
+                        className="btn btn-light font-10 mt-3"
                       >
                         문의하기
                       </Link>

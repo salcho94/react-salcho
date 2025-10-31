@@ -4,16 +4,13 @@ import { Container, Row, Col } from "reactstrap";
 
 const Footer = () => {
   return (
-    <div className="footer3 b-t spacer">
+    <div className="footer2 b-t spacer">
       <Container>
         <div className="f4-bottom-bar">
           <Row>
             <Col md="12">
               <div className="d-flex font-14 text-center">
-                <div
-                  className="m-t-10 m-b-10 copyright"
-                  style={{ color: "black" }}
-                >
+                <div className="m-t-10 m-b-10 copyright">
                   All Rights Salcho Since 1994.
                 </div>
                 <div className="links ml-auto m-t-10 m-b-10">
