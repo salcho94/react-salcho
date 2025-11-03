@@ -16,7 +16,7 @@ import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 
 import Inquiry from "./views/pages/inquiry";
-
+import "./assets/scss/style.scss";
 let hist = createBrowserHistory();
 
 ReactDOM.render(
